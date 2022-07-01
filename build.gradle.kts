@@ -26,7 +26,7 @@ buildscript {
     val materialVersion by extra("1.3.0")
     val composeNavigationVersion by extra("2.4.0-alpha03")
     val hiltComposeNavVersion by extra("1.0.0-alpha03")
-    val hiltVersion by extra("2.38.1")
+    val hiltVersion by extra("2.40.1")
     val workerVersion by extra("2.7.1")
     val hiltAndroidXVersion by extra("1.0.0-alpha03")
     val roomVersion by extra("2.3.0")
@@ -54,7 +54,7 @@ buildscript {
     }
 
     dependencies {
-        classpath("com.android.tools.build:gradle:7.2.0-alpha05")
+        classpath("com.android.tools.build:gradle:7.2.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:${kotlinVersion}")
         classpath("com.google.dagger:hilt-android-gradle-plugin:${hiltVersion}")
         classpath("com.google.gms:google-services:${googleServiceVersion}")
